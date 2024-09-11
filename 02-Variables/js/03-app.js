@@ -9,6 +9,6 @@ console.log(producto);
 
 const precio = 200;
 
-// precio = 300; ***no se puede
+//precio = 300; 
 
 console.log(precio);

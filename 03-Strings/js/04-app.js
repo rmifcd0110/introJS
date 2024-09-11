@@ -6,7 +6,7 @@ console.log(producto.length);
 
 //eliminar el espacio del inicio
 console.log(producto.trimStart());//Elimina los espacios del principio
-console.log(producto.trimEnd());//Eliman los espacios del final
+console.log(producto.trimEnd());//Elimina los espacios del final
 
 //Los metodos en javascript se pueden encadenar (concatenar) en el mismo console.log
 console.log(producto.trimStart().trimEnd());

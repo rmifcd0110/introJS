@@ -1,4 +1,4 @@
-//En la consola los número sse muestran en un color diferente
+//En la consola los número se muestran en un color diferente
 
 const numero1 = 20;
 const numero2 = "20";

@@ -13,3 +13,4 @@ console.log(producto, " con un precio de " , precio);
 
 //ES6 "SmartScript6" trajo consigo una mejor forma de concatenar variables
 console.log(`El producto ${producto} tiene un precio de ${precio}`);
+
