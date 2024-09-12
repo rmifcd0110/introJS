@@ -1,7 +1,7 @@
 /*Las funciones en cualquier lenguaje son una serie de procedimientos o instrucciones
 que realizan una acción. Una de las ventajas de las funciones es que permiten tener un código más ordenado y facil de mantener*/
 
-/**Otra de las ventajs de las funciones es que son reutilizables. Puedes tener una función que valide un formulario y utilizarla en todos los formularios. También puedes tener una función que envíe datos al servidor y reutilizarla miles de veces. */
+/**Otra de las ventajas de las funciones es que son reutilizables. Puedes tener una función que valide un formulario y utilizarla en todos los formularios. También puedes tener una función que envíe datos al servidor y reutilizarla miles de veces. */
 
 // Existen muchas formas de crear funciones en JavaScript
 
@@ -12,3 +12,13 @@ que realizan una acción. Una de las ventajas de las funciones es que permiten t
 function sumar(){
     console.log(2 + 2);
 }
+
+sumar(); //llamada a la función
+
+//Expresión de la función, estas funciones se asigna como si fuese una variable
+
+const sumar2 = function(){
+    console.log(3 + 3);
+}
+
+sumar2(); 
