@@ -1,6 +1,7 @@
 // Buenas practicas con el if
 
 const autenticado = true;
+
 //mala práctica es
 if (autenticado == true){
     console.log('El usuario está autenticado --> mala práctica en el uso del if');

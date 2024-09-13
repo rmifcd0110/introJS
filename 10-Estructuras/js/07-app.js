@@ -16,4 +16,4 @@ if (efectivo > totalCarrito || credito > totalCarrito){
 //  true false  and  false
 //  true false   or  true
 //  true true   and  true
-//  false false  and true
+//  false false  and false

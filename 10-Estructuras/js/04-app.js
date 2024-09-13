@@ -1,5 +1,5 @@
 //comprobar mas de una condición
-let rol = 'admin';
+let rol = 'ADMIN';
 
 if( rol.toUpperCase() == 'ADMIN'){
     console.log('El usuario puede editar, eliminar y consultar toda la información');
