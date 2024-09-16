@@ -31,3 +31,18 @@ const vocales = ["a","e","i","o","u","á","é","í","ó","ú"];
 
 let palabra = prompt("Escribe una palabra");
 
+console.log(palabra);
+
+console.log(palabra[0]);
+console.log(palabra.length);
+
+let contar = 0;
+for(let i = 0; i < palabra.length; i++){
+    const existe = vocales.includes(palabra[i].toLowerCase());
+    if (existe){
+        contar++;
+        console.log(palabra[i]);
+    }
+    
+}
+console.log(contar);
