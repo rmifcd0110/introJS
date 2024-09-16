@@ -9,7 +9,7 @@ function generarTabla(){
     let totalCeldas = filas * columnas;
 
     //Creamos la tabla de forma dinámica
-    let tabla = "<table border='1' cellpadding='10 cellspacing='0'>";
+    let tabla = "<table border='1' cellpadding='10' cellspacing='0'>";
 
     //Empezamos a llenar la tabla
     for(let i= 0; i < filas; i++){
