@@ -32,7 +32,7 @@ console.log(meses5);
  * 
  */
 
-function esPalindromo(){
+/* function esPalindromo(){
     //Obtener el valor dle input
     let texto = document.getElementById("texto").value;
 
@@ -57,7 +57,7 @@ function esPalindromo(){
     }
 
 
-}
+} */
 
 /* function validateEmail(){
                 
@@ -76,3 +76,26 @@ function esPalindromo(){
 		return false;
 	}
 } */
+
+function esPalindromo(){
+    //Obtener el valor del input
+    let texto = document.getElementById("texto").value;
+
+    //Invertir el texto
+    let textoInvertido = texto.split('').reverse().join('');
+    
+    if (texto === textoInvertido){
+        document.getElementById("respuesta").innerHTML="El texto es un palídromo";
+    }else{
+        document.getElementById("respuesta").innerHTML="El texto no es un palídromo";
+    }
+}
+
+
+function calcularLetraDNI (numero){
+    let letra = ['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'];
+
+    let l = numero % 23;
+    document.getElementById('respuesta-dni').innerHTML = `El DNI es : ${numero}-${letra[l]}`;
+}
+

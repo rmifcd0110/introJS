@@ -11,4 +11,5 @@ const precio = 200;
 
 //precio = 300; 
 
+
 console.log(precio);
