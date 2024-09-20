@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "introJS",
+			"path": ".."
+		},
+		{
+			"name": "dom-main",
+			"path": "../../dom-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "introJS"
+	}
+}
